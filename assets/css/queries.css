@@ -6,26 +6,37 @@
   .mobile-logo {
     display: none;
   }
-
-  header.main-header {
-    max-width: 1024px;
+  .close {
+    display: unset;
+  }
+  .main-header {
+    max-width: 1240px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 2rem;
   }
-  .mobile-menu-icon-open {
+  #mobile-menu-icon {
     display: none;
   }
 
-  .main-menu {
+  .main-menu,
+  .main-menu.close {
+    max-width: 1240px;
     display: flex;
-    flex-direction: unset;
     gap: 1.5rem;
+    flex-direction: row;
     align-items: center;
     width: unset;
     height: unset;
     background-color: unset;
+    position: unset;
+  }
+
+  .main-menu-item {
+    padding: unset;
+    border: unset;
   }
   .main-menu-item-link {
     text-transform: capitalize;
@@ -47,7 +58,7 @@
     background-color: var(--button);
   }
   .main-menu-button {
-    display: unset;
+    display: inline-block;
     color: var(--text-color);
     font-weight: 700;
     text-transform: uppercase;
@@ -55,6 +66,7 @@
     border: 1px solid var(--button);
     border-radius: 6px;
     transition: all 0.2s;
+    cursor: pointer;
   }
   .main-menu-button:hover {
     background-color: var(--button);
