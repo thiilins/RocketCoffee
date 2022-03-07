@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+:root {
+  --backgrond: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+}
+
+html {
+  background-color: var(--backgrond);
+  font-size: 87.5%;
+}
+header.main-header {
+  padding: 2rem;
+}
+.desktop-logo,
+.main-menu-button {
+  display: none;
+}
+.mobile-logo {
+  display: block;
+}
+
+.main-hero-content-text.featured {
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button),
+    -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+.main-hero-content-text.white-color {
+  color: var(--text-color);
+}
+
+/* ORGANIZAR */
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main-menu-item-link {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-color-menu-mobile);
+  position: relative;
+  transition: all 0.2s;
+}
+.main-header-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blur {
+  background: #996dff;
+  filter: blur(20rem);
+  position: fixed;
+}
+.blur.mobile-center {
+  width: 54rem;
+  height: 32rem;
+  bottom: -10rem;
+}
+.blur.top {
+  display: none;
+}
+.mobile-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobile-header-title {
+  color: var(--text-color);
+  padding: 3rem 2rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.main-button-mobile {
+  color: var(--text-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--button);
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+.main-button-mobile::after {
+  content: "";
+  color: transparent;
+  padding: 0 0.8rem;
+  width: 1.3rem;
+  height: 1rem;
+  background-image: url(/assets/img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main-button-mobile:hover {
+  background-color: var(--button);
+}
+
+/* Hero */
+
+.main-hero-content-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-hero-content-text {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+.main-hero-content-text-container {
+  padding: 5rem 0 0;
+}
+.main-hero-content-images-container img {
+  max-width: 100vw;
+}
