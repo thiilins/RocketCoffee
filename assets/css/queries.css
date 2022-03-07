@@ -38,6 +38,9 @@
     padding: unset;
     border: unset;
   }
+  .main-menu-item:hover {
+    border-left: unset;
+  }
   .main-menu-item-link {
     text-transform: capitalize;
     font-weight: 500;
