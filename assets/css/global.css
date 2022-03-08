@@ -40,6 +40,12 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--backgrond); /* creates padding around scroll thumb */
 }
 /*  Body */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
 .desktop-logo,
 .main-menu-button {
   display: none;

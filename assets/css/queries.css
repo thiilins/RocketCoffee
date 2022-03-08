@@ -1,4 +1,9 @@
 @media (min-width: 700px) {
+  body {
+    display: unset;
+    flex-direction: unset;
+    justify-content: unset;
+  }
   .desktop-logo {
     display: block;
   }
