@@ -25,6 +25,13 @@ html {
   font-size: 87.5%;
 }
 /*  SCROLL */
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 body::-webkit-scrollbar {
   width: 0.8rem; /* width of the entire scrollbar */
@@ -40,12 +47,7 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--backgrond); /* creates padding around scroll thumb */
 }
 /*  Body */
-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
-}
 .desktop-logo,
 .main-menu-button {
   display: none;
