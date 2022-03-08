@@ -114,6 +114,7 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  transition: all 0.2s ease-in-out;
 }
 #mobile-menu-icon::after {
   background-image: url(/assets/img/menu-buguer-open.svg);
