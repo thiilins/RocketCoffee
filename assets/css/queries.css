@@ -3,6 +3,7 @@
     display: block;
     flex-direction: unset;
     justify-content: unset;
+      min-width: unset;
   }
 
   .desktop-logo {
