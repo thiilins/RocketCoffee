@@ -1,5 +1,5 @@
-<div align="center" id="top"> 
-  <img src="./.github/cover.png" alt="Great Coffee" />
+<div align="center" id="top">
+  <img src="./.github/assets/cover.png" alt="Great Coffee" />
 
 &#xa0;
 
@@ -10,13 +10,13 @@
 <h1 align="center">Great Coffe</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/thiilins/great-coffee?color=8257e5&style=for-the-badge">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/thiilins/RocletCoffee?color=FF5858&style=for-the-badge">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/thiilins/great-coffee?color=8257e5&style=for-the-badge">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/thiilins/RocketCoffee?color=FF5858&style=for-the-badge">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/thiilins/great-coffee?color=8257e5&style=for-the-badge">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/thiilins/RocketCoffee?color=FF5858&style=for-the-badge">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/thiilins/great-coffee?color=8257e5&style=for-the-badge">
+  <img alt="Licença" src="https://img.shields.io/github/license/thiilins/RocketCoffee?color=FF5858&style=for-the-badge">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/great-coffe?color=56BEB8" /> -->
 
@@ -35,7 +35,7 @@
 
 <p align="center">
   <a href="https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate">Layout</a> &#xa0; | &#xa0;
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requisitos">Pré requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
